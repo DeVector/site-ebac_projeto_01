@@ -4,22 +4,32 @@
     box-sizing: border-box;
 }
 
+h2, h3 {
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
 header {
     background-color: darkseagreen;
 }
 
 header h1 {
     color: aqua;
+    font-family: 'Nunito', sans-serif;
 }
 
-header li {
+header nav li {
     display: inline;
     padding-left: 16px;
 }
 
-header li a {
+header nav li a {
     color: aqua;
     text-decoration: none;
+    font-family: 'Nunito', sans-serif;
 }
 
 .container {
@@ -32,5 +42,27 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 4px;
+}
+
+#resume .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+#resume .container h2{
+    padding-top: 8px;
+}
+
+.img-perfil {
+    height: 200px;
+}
+
+.linguages-group img{
+    height: 50px;
+    margin-top: 10px;
+}
+
+.linguages-group li {
+    display: inline;
 }
